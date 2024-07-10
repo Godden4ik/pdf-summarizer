@@ -15,7 +15,7 @@ def summarize_text(text):
             messages=[
                 {
                     "role": "user",
-                    "content": f"{text}\n\nThe summary of the above text is:",
+                    "content": f"Summarize the text below.\n\n{text}",
                 },
             ],
         )

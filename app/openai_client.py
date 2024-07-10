@@ -3,6 +3,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+# https://github.com/openai/openai-python/blob/main/examples/demo.py
+
 client = openai.OpenAI()
 
 

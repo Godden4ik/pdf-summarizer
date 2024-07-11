@@ -1,4 +1,4 @@
-from PyPDF2 import PdfReader
+from pypdf import PdfReader
 from flask import Blueprint, request, jsonify
 from .openai_client import summarize_text
 

@@ -9,7 +9,7 @@ A REST API that summarizes a single-page PDF file that is built using Python Fla
     ```bash
     pip install -r requirements.txt
     ```
-3. Set up environment an environment variable for OpenAI API key:
+3. Set up an environment variable for an OpenAI API key:
    
    - Create a `.env` file in the root directory of the project.
    - Add the following line to the `.env` file:
